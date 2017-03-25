@@ -5,7 +5,9 @@ All cool git commands that can saves you time and maybe your life. :)
 <b> Command : </b> <code> git reflog </code> </br> 
 
 
-<p> <b> Use : </b> It shows all your past commits. Useful when you wants to track down any commits of yours or reverts to a previous state. </p>
+<p> <b> Use : </b> It shows all your past commits. 
+
+Useful when you wants to track down any commits of yours or reverts to a previous state. </p>
 
 
 <b> Command : </b> <code> Git standup </code> </br>
@@ -18,3 +20,7 @@ All cool git commands that can saves you time and maybe your life. :)
 
 <p> <b>  Use : </b> This can be a lifesaver when you've made  a mistake in  your repo and decided to reverts your repo to the recent state. Easy , just use <italic> Git reset --hard <Your past commits SHA1> </italic> to move to a previous state. First of all you have to use <italic> Git reflog </italic> or <italic> Git standup </italic> to get the SHA1 of the commits you wanted to revert your repo to. </p> 
 
+
+<b> Command : </b> <code> Git add . </code> </br> 
+
+<p> </b> Use : </b> So you've made changes to several files on your local repo and you want to stage them all for commits. Instead of looking for all the files you made changes to before you commits. You can just use <italic> git add . </italic> to add all those files at once so that you can commits. </p>
