@@ -23,4 +23,4 @@ Useful when you wants to track down any commits of yours or reverts to a previou
 
 <b> Command : </b> <code> Git add . </code> </br> 
 
-<p> </b> Use : </b> So you've made changes to several files on your local repo and you want to stage them all for commits. Instead of looking for all the files you made changes to before you commits. You can just use <italic> git add . </italic> to add all those files at once so that you can commits. </p>
+<p> <b> Use : </b> So you've made changes to several files on your local repo and you want to stage them all for commits. Instead of looking for all the files you made changes to before you commits. You can just use <italic> git add . </italic> to add all those files at once so that you can commits. </p>
