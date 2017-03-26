@@ -1,26 +1,20 @@
 # cool-git-commands
 All cool git commands that can saves you time and maybe your life. :)
 
+<ul>
 
-<b> Command : </b> <code> git reflog </code> </br> 
-
-
-<p> <b> Use : </b> It shows all your past commits. 
-
-Useful when you wants to track down any commits of yours or reverts to a previous state. </p>
+<p> <li> <code> git reflog </code> </li> :  It shows all the previous commits you've made in your repo. It can be useful when you wants to reverts your work to a previous state.  </p>
 
 
-<b> Command : </b> <code> Git standup </code> </br>
+<p> <li>  <code> Git standup :  </code> </li> Lists all your yesterday's commits. The downside is its doesn't come with every git client. So you have to install it. Follow the guide <a href="https://github.com/kamranahmedse/git-standup"> here </a> to install. </p>
 
 
-<p> <b> Use : </b> Shows all your yesterday's commits. It comes handy when you want to poke nose into what your colleagues did in the other day. The downside is its doesn't come with every git client. So you have to install it. Follow the guide <a href="https://github.com/kamranahmedse/git-standup"> here </a> to install. </p>
+<p> <li>  <code> Git reset --hard  : </code> </li>  This can be a lifesaver when you've made  a mistake in  your repo and decided to reverts your repo to the previous state. Just use <italic> Git reset --hard <The SHA1 of the commits you want to revert to>  </italic> . First of all you have to use <italic> Git reflog </italic> or <italic> Git standup </italic> to get the SHA1 of the commits you wanted to revert your repo to. </p> 
 
 
-<b> Command : </b> <code> Git reset --hard <your past commit SHA1> </code> </br> 
-
-<p> <b>  Use : </b> This can be a lifesaver when you've made  a mistake in  your repo and decided to reverts your repo to the recent state. Easy , just use <italic> Git reset --hard <Your past commits SHA1> </italic> to move to a previous state. First of all you have to use <italic> Git reflog </italic> or <italic> Git standup </italic> to get the SHA1 of the commits you wanted to revert your repo to. </p> 
+<p> <li>  <code> Git add . : </code> </li>  So , you've made changes to several files on your local repo and you want to stage them all for commits. Instead of looking for all the files you made changes to before you commits. You can just use <italic> git add . </italic> to add all those files at once instead of adding them one by one. </p>
 
 
-<b> Command : </b> <code> Git add . </code> </br> 
+<p> <li>  <code> Git Stash : </code> </li> It  takes all of the staged changes and stores them away somewhere. It can be helpful when you don't want to push  particular changes yet and still don't want to delete them. </p>
 
-<p> <b> Use : </b> So you've made changes to several files on your local repo and you want to stage them all for commits. Instead of looking for all the files you made changes to before you commits. You can just use <italic> git add . </italic> to add all those files at once so that you can commits. </p>
+
