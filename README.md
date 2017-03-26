@@ -3,7 +3,7 @@ All cool git commands that can saves you time and maybe your life. :)
 
 <ul>
 
-<p> <li> <code> git reflog </code> </li> :  It shows all the previous commits you've made in your repo. It can be useful when you wants to reverts your work to a previous state.  </p>
+<p> <li> <code> git reflog : </code> </li>   It shows all the previous commits you've made in your repo. It can be useful when you wants to reverts your work to a previous state.  </p>
 
 
 <p> <li>  <code> Git standup :  </code> </li> Lists all your yesterday's commits. The downside is its doesn't come with every git client. So you have to install it. Follow the guide <a href="https://github.com/kamranahmedse/git-standup"> here </a> to install. </p>
