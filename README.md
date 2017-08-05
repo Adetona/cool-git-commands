@@ -65,6 +65,8 @@ Let say you made a typo in your  commit message you can use it to change the mes
 
 <p> <li> <code> git rm :</code> </li> Removes files from your index and your working directory so they will not be tracked. </p>
 
+<p> <li> <code> git tag :</code> </li> Tags a specific commit with a simple, human readable handle that never moves. Example: git tag -a v1.0 -m 'this is version 1.0 tag'. </p>
+
 
 
 
