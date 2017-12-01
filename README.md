@@ -17,11 +17,15 @@ All cool git commands that can saves you time and maybe your life. :)
 
 <p> <li>  <code> Git Stash : </code> </li> It  takes all of the staged changes and stores them away somewhere. It can be helpful when you don't want to push  particular changes yet and still don't want to delete them. </p>
 
+<p> <li>  <code> Git stash pop : </code> </li> This command retrieved the stored changes that you git stash </p>
+
 <p> <li> <code> git commit --amend :  </code> </li>
 
 Let say you made a typo in your  commit message you can use it to change the message instead of making a new commit all over again. </p>
 
 <p> <li> <code> git blame : </code> </li> If you want to play the blame game this command comes handy. It shows the particular changes made to files , the name of the author and the time they made it.In case a person has broken any of your features you can go ahead and YELL at the person who made those mistakes. </p>
+
+<p> <li> <code> git commit -am 'your commit message' : </code> </li>  This command let you add and commit your changes in a single command </p>
 
 
 <p> <li> <code> git fetch :</code> </li> Fetches all the objects from the remote repository that are not present in the local one. Example: git fetch origin. </p>
@@ -54,7 +58,6 @@ Let say you made a typo in your  commit message you can use it to change the mes
 
 <p> <li> <code> git checkout :</code> </li> Checks out a different branch – switches branches by updating the index, working tree, and HEAD to reflect the chosen branch. <italic> Example: git checkout newbranch </italic>  </p>
 
-
 <p> <li> <code> git branch :</code> </li> Lists existing branches, including remote branches if ‘-a’ is provided. Creates a new branch if a branch name is provided.  </p>
 
 <p> <li> <code> git status :</code> </li> Shows you the status of files in the index versus the working directory. It will list out files that are untracked (only in your working directory), modified (tracked but not yet updated in your index), and staged (added to your index and ready for committing).  </p>
@@ -67,14 +70,6 @@ Let say you made a typo in your  commit message you can use it to change the mes
 
 <p> <li> <code> git tag :</code> </li> Tags a specific commit with a simple, human readable handle that never moves. Example: git tag -a v1.0 -m 'this is version 1.0 tag'. </p>
 
-
-
-
-
-
-
-
-
-
+<p> <li> <code> git remote add :</code> </li> This command let you add your repository url to a project, you are type 'git remote add origin {{your repo url}} to set your repo, to contribute to someone else repo you have to set the remote to theirs 'git remote add upstream {{destination_url}}. To show the list of all the remote added: do 'git remote -v' to remove a remote from the repo, git remote rm {{origin||upstream}}</p>
 
 </ul>
