@@ -17,7 +17,7 @@ All cool git commands that can saves you time and maybe your life. :)
 
 <p> <li>  <code> Git Stash : </code> </li> It  takes all of the staged changes and stores them away somewhere. It can be helpful when you don't want to push  particular changes yet and still don't want to delete them. </p>
 
-<p> <li>  <code> Git pop : </code> </li> This command retrieve your stored changes that you git stash </p>
+<p> <li>  <code> Git stash pop : </code> </li> This command retrieved the stored changes that you git stash </p>
 
 <p> <li> <code> git commit --amend :  </code> </li>
 
